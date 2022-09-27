@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+    margin-right: 8px;
+}
+nav{
+    display: flex;
+}
+nav h5{
+    margin-left: 8px;
+}

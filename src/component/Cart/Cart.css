@@ -1,0 +1,10 @@
+.cart{
+    position: sticky;
+    top: 10px;
+}
+.product p{
+    display: inline-block;
+}
+.quantity{
+    margin-left: auto;
+}

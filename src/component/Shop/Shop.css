@@ -1,0 +1,19 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+}
+.all-meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 10px 5%;
+}
+.cart-section{
+    background-color: darkseagreen;
+}
+
+@media screen and (max-width: 600px) {
+    .all-meals{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,27 @@
+.single-meal{
+    border: 2px solid rgb(230, 224, 224);
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.single-meal img{
+    border-radius: 10px;
+    width: 100%;
+}
+.title{
+    margin: 0;
+}
+.meal-btn{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meal-btn:hover{
+    background-color: rgb(167, 163, 151);
+}
